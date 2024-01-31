@@ -6,7 +6,7 @@ import {BrowserRouter,Routes,Route,Link } from "react-router-dom";
 export const Header = () =>{
     
     return(
-        <div className='header'>
+        <header>
         <BrowserRouter>
         <Link to="/">Home</Link>
         <Link to="/Contact">Contact</Link>
@@ -18,6 +18,6 @@ export const Header = () =>{
         <Route path='/Panier' Component={Panier}></Route>
         </Routes>
         </BrowserRouter>
-        </div>
+        </header>
     )
 }

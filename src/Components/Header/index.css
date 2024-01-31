@@ -1,4 +1,4 @@
-.header {
+header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,20 +6,13 @@
     height: 50px;
 }
   
-.header a {
+header a {
     color: #fff;
     text-decoration: none;
     padding: 0 20px;
 }
   
-.header a.active {
+header a.active {
     background-color: #555;
 }
   
-footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    border-top: 1px solid black;
-}

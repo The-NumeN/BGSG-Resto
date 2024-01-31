@@ -1,8 +1,9 @@
+import './index.css'
 export const Footer = () =>{
     
     return(
-        <div>
-            
-        </div>
+        <footer>
+            test
+        </footer>
     )
 }
