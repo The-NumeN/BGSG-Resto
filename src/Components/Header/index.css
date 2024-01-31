@@ -1,3 +1,25 @@
-.Headerr{
-    
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 50px;
+}
+  
+.header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+}
+  
+.header a.active {
+    background-color: #555;
+}
+  
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid black;
 }

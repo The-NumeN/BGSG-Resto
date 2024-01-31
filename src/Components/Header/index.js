@@ -6,7 +6,7 @@ import {BrowserRouter,Routes,Route,Link } from "react-router-dom";
 export const Header = () =>{
     
     return(
-        <div className='Headerr'>
+        <div className='header'>
         <BrowserRouter>
         <Link to="/">Home</Link>
         <Link to="/Contact">Contact</Link>
