@@ -1,11 +1,12 @@
-import Button from '../Button';
 import './index.css';
+import Button from '../Button';
 import React, { useState } from 'react';
 
-const Card = ({ img, title, description, price }) => {
+export const Card = ({ img, title, description, price, addToCart }) => {
   const [isAddedToCart, setIsAddedToCart] = useState(false);
 
   const addToCartHandler = () => {
+    addToCart({ title, price });
     setIsAddedToCart(true);
     setTimeout(() => {
       setIsAddedToCart(false);
@@ -18,18 +19,15 @@ const Card = ({ img, title, description, price }) => {
             <img src={img} alt={title} className="product-image" />
         </div>
         <h2>{title}</h2>
-        <p class="des">{description}</p>
-        <p class="des">Prix: {price} €</p>
+        <p>{description}</p>
+        <p>Prix: {price} €</p>
         <Button.Ajout onClick={addToCartHandler}  label="Ajouter au panier"></Button.Ajout>
 
         {isAddedToCart && (
             <div className="popup">
                 <p>Ajouté au panier!</p>
-                
             </div>
         )}
     </div>
   );
 };
-
-export default Card;

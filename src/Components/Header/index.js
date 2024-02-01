@@ -1,12 +1,10 @@
 import './index.css'
 import { Contact } from '../../Pages/Contact';
+import Menu from '../../Pages/Menu';
+import Panier from '../../Pages/Panier';
 import { Home } from '../../Pages/Home';
-import { Panier } from '../../Pages/Panier';
 import {BrowserRouter,Routes,Route,Link } from "react-router-dom";
 import img from '../../Assets/Panier.png';
-
-import { Menu } from '../../Pages/Menu';
-
 
 export const Header = () =>{    
 
