@@ -1,24 +1,24 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
-	height: 100%;
-    margin-top: 30px;
+.all {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
 }
 
-.left {
-	width: 50%;
-	height: 100%;
-	float: left;
-	background-color: 
-red;
+.left{
+  width: 50%;
+  height: 30%;
+
 }
 
-.right {
-	width: 50%;
-	height: 100%;
-	float: left;
-	
-}
+  
+  .right {
+background-color: blue;
+    width: 50%;
+    height: 50%;
+  }
+
