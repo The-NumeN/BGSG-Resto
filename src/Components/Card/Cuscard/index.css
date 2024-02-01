@@ -13,16 +13,8 @@
   
   .product-card h2 {
     color: #333;
-    margin-bottom: 4px;
+    margin-top: 20px;
   }
-  
-  .des {
-    color: #666;
-    margin-bottom: 12px;
-  }
-  
- 
-  
   .popup {
     position: fixed;
     top: 16px;
