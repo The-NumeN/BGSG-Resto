@@ -20,7 +20,6 @@ export default function Panier() {
   return (
     <div className="panier-container">
       <div className="image-container">
-        {/* Remplacez 'url_de_votre_image' par l'URL réelle de votre image */}
         <img src={Shop} alt="Image" className="image" />
       </div>
       <div className="panier-content">
