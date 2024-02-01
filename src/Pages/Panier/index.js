@@ -1,9 +1,8 @@
 
-
-export const Panier = ({counterposition, number}) =>{
+export const Panier = ({}) =>{
     return (
       <div>
-        
+
       </div> 
     )
 }

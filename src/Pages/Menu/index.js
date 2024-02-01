@@ -15,6 +15,9 @@ export const Menu = () => {
       <Card img={blackImage} title="Test" description="la bouffe n'est pas bonne" price="20"/>
       <Card img={blueImage} title="Test" description="la bouffe n'est pas bonne" price="20"/>
       <Card img={pink} title="Test" description="la bouffe n'est pas bonne" price="20"/>
+      <Card img={pink} title="Test" description="la bouffe n'est pas bonne" price="20"/>
+      <Card img={pink} title="Test" description="la bouffe n'est pas bonne" price="20"/>
+      <Card img={pink} title="Test" description="la bouffe n'est pas bonne" price="20"/>
     </div>
   );
 }

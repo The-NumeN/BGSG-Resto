@@ -3,6 +3,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,6 +25,12 @@ header a.active {
 }
 #icon{
     height: 27px;
-    width: 27px;
+    width: 60;
+    right: 0px;
+    margin-right: 10%;
 }
+.icon{
+  margin-left: 300px;
+}
+
   

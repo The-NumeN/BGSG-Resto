@@ -13,10 +13,12 @@ export const Header = () =>{
     return(
         <BrowserRouter>
         <header>
-        <Link to="/">Home</Link>
+        
+        <Link to="/Home">Home</Link>
         <Link to="/Menu">Menu</Link>
         <Link to="/Contact">Contact</Link>
-        <Link to="/Panier"><img src={img} id='icon' alt="err"/></Link>
+        <Link to="/Panier"  ><img src={img} id='icon' alt="err"/></Link>
+    
         </header>
 
       
