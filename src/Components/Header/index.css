@@ -15,4 +15,8 @@ header a {
 header a.active {
     background-color: #555;
 }
+#icon{
+    height: 27px;
+    width: 27px;
+}
   

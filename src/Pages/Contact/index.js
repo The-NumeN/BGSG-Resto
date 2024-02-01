@@ -1,7 +1,7 @@
 export const Contact = () =>{
     return (
-        <div>
+        <form>
             
-        </div>
+        </form>
     )
 }

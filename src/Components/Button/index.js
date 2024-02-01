@@ -1,5 +1,5 @@
 import { Ajout } from "./Ajout";
-import { Autre } from "./Autre";
+import { Annuler } from "./Annuler";
 
 const Button = ({children,action}) => {
 
@@ -11,6 +11,6 @@ const Button = ({children,action}) => {
 };
 
 Button.Ajout = Ajout;
-Button.Autre = Autre;
+Button.Autre = Annuler;
 
 export default Button;
