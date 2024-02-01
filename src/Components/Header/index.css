@@ -7,14 +7,14 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(51, 51, 51, 0.7);
+  background-color: rgba(175, 164, 164, 0.7);
   height: 50px;
   transition: background-color 0.3s ease;
   z-index: 1000;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(15px);
 }
 header a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   padding: 0 20px;
 }
