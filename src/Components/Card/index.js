@@ -1,33 +1,17 @@
 import './index.css';
-import Button from '../Button';
-import React, { useState } from 'react';
+import { Cuscard } from './Cuscard';
+import { Simcard } from './Simcard';
 
-export const Card = ({ img, title, description, price, addToCart }) => {
-  const [isAddedToCart, setIsAddedToCart] = useState(false);
-
-  const addToCartHandler = () => {
-    addToCart({ title, price });
-    setIsAddedToCart(true);
-    setTimeout(() => {
-      setIsAddedToCart(false);
-    }, 2000);
-  };
-
-  return (
-    <div className="product-card">
-        <div className="product-image-container">
-            <img src={img} alt={title} className="product-image" />
-        </div>
-        <h2>{title}</h2>
-        <p>{description}</p>
-        <p>Prix: {price} €</p>
-        <Button.Ajout onClick={addToCartHandler}  label="Ajouter au panier"></Button.Ajout>
-
-        {isAddedToCart && (
-            <div className="popup">
-                <p>Ajouté au panier!</p>
-            </div>
-        )}
+const Card = ({ children}) => {
+  
+  return(
+    <div>
+      {children}
     </div>
-  );
+  )
 };
+
+Card.Cuscard = Cuscard;
+Card.Simcard = Simcard;
+
+export default Card;

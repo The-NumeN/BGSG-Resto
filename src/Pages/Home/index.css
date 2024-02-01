@@ -7,18 +7,35 @@
   display: flex;
   justify-content: space-between;
   margin-top: 3%;
+   
 }
 
 .left{
-  width: 50%;
+  width: 60%;
   height: 30%;
 
 }
+.left p{
+  height: 800px;
+  width: 800px;
+}
+ #spe{
+  color: white;
+  margin-bottom: 10%;
+ }
+  .end{
+    /* margin-top: 90%; */
+   align-items: center;
+    
+    width: 25%;
 
-  
+  }
+  #test{
+    margin-top: 50%;
+  }
   .right {
-background-color: blue;
-    width: 50%;
-    height: 50%;
+background-image:url("../../Assets/background3.jpg");
+    width: 60%;
+    height: 120vh;
   }
 

@@ -1,4 +1,4 @@
-/* .product-card {
+.product-card {
     border: 1px solid #ddd;
     padding: 16px;
     margin: 16px;
@@ -16,23 +16,6 @@
     margin-bottom: 4px;
   }
   
-  .des {
-    color: #666;
-    margin-bottom: 12px;
-  }
-  
- 
-  
-  .popup {
-    position: fixed;
-    top: 16px;
-    right: 16px;
-    background-color: #323432;
-    color: #fff;
-    padding: 16px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
   
   .product-image-container {
     overflow: visible;
@@ -53,4 +36,4 @@
   
   .product-card:hover .product-image {
     transform: scale(1.2);
-  } */
+  }

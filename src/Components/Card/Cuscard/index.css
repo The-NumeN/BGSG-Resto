@@ -1,4 +1,4 @@
-/* .product-card {
+.product-card {
     border: 1px solid #ddd;
     padding: 16px;
     margin: 16px;
@@ -53,4 +53,4 @@
   
   .product-card:hover .product-image {
     transform: scale(1.2);
-  } */
+  }

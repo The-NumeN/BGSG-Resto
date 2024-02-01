@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "../../Components/Card";
+import Card from "../../Components/Card";
 import './index.css';
 
 import blueImage from '../../Assets/cu2.png';
@@ -23,7 +23,7 @@ export default function Menu() {
   return (
     <div className="Menu">
       {products.map((product, index) => (
-        <Card
+        <Card.Cuscard
           key={index}
           img={product.img}
           title={product.title}
@@ -32,6 +32,7 @@ export default function Menu() {
           addToCart={addToCart}
         />
       ))}
+     
     </div>
   );
 }
