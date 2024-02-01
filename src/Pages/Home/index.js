@@ -7,16 +7,17 @@ import image2 from "../../Assets/c2.png";
 import image3 from "../../Assets/cu1.png";
 import image4 from "../../Assets/c4.png";
 import Card from "../../Components/Card";
-
-import blueImage from '../../Assets/cu2.png';
-import blackImage from '../../Assets/black.png';
-
+import Image4 from '../../Assets/fi1.png';
+import Image5 from '../../Assets/fi2.png';
+import Image6 from '../../Assets/fi3.png'
  const Home = () => {
-  const products = [
-    { img: blueImage, title: 'Test', description: "la bouffe n'est pas bonne", price: 20 },
-    { img: blackImage, title: 'Test2', description: "la bouffe n'est pas bonne", price: 30 },
-    { img: blueImage, title: 'Test3', description: "la bouffe n'est pas bonne", price: 60 },
-  ];
+    const products = [
+
+      
+      { img: Image4, title: 'Crustacés', description: "Ensemble de moules,coquillages...", price: 60 },
+      { img: Image5, title: 'Poisson', description: "Dorade", price: 70 },
+      { img: Image6, title: 'Poissonnet', description: "Thon", price: 80 },
+    ];
   return (
     <div>
 <div className="all">
