@@ -1,3 +1,31 @@
-body{
-    margin-top: 10%;
+.panier-container {
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 10px; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin: 0 auto; 
 }
+
+.image-container {
+  flex: 1;
+  margin-right: 400px;
+}
+
+.image {
+    width: 100%;
+    max-width: auto;
+    margin-left: 100px;
+
+  }
+  
+  .panier-content {
+    flex:1;
+    padding: 10px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); 
+    margin-right: 100px;
+    
+  }

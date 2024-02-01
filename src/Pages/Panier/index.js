@@ -1,7 +1,8 @@
 import React from "react";
+import Shop from "../../Assets/shop.png";
+import './index.css'
 
 export default function Panier() {
-
   const viderPanier = () => {
     localStorage.clear();
     window.location.reload();
@@ -14,18 +15,24 @@ export default function Panier() {
     )
 
     return total;
-}
+  }
 
   return (
-    <div>
-       <h2> Mon panier </h2>
-            {Object.keys(localStorage).map(key =>
-
-                <p key={key}> {key} : {localStorage.getItem(key)}€ </p>
-
-            )}
-      <h3> Total à payer : {getTotal()} € </h3>
-      <button onClick={() => viderPanier()}>Vider le panier</button>
+    <div className="panier-container">
+      <div className="image-container">
+        {/* Remplacez 'url_de_votre_image' par l'URL réelle de votre image */}
+        <img src={Shop} alt="Image" className="image" />
+      </div>
+      <div className="panier-content">
+        <h2>Mon panier</h2>
+        {Object.keys(localStorage).map(key => (
+          <p key={key}>
+            {key} : {localStorage.getItem(key)}€
+          </p>
+        ))}
+        <h4>Total à payer : {getTotal()} € </h4>
+        <button onClick={() => viderPanier()}>Vider le panier</button>
+      </div>
     </div>
   );
-};
+}
