@@ -18,40 +18,14 @@ import blackImage from '../../Assets/black.png';
     { img: blueImage, title: 'Test3', description: "la bouffe n'est pas bonne", price: 60 },
   ];
   return (
-    
+    <div>
 <div className="all">
   <div className="left">
-    <h1><bold>Bienvenue chez BGSG</bold></h1>
-    <p>
-Bienvenue chez BGSG, le Fast-Food qui va réveiller vos papilles ! Chez nous, on mise sur des burgers qui déchirent, des frites croustillantes, des hot-dogs qui font saliver et des milkshakes à tomber. Fraîcheur et saveurs sont nos mots d'ordre.
-
-BGSG, c'est la promesse de repas rapides, délicieux et sans chichi. Que vous soyez fan des classiques ou prêt à découvrir des combos inédits, on a de quoi satisfaire toutes les envies.
-
-Alors, installez-vous, commandez, et laissez-vous emporter par le plaisir simple et authentique de BGSG. Bon appétit !
-    <h2>Vous avez faim?</h2>
-    Chez BGSG, nos spécialités sont conçues pour vous offrir une expérience gustative inoubliable. Découvrez nos incontournables :
-
-Le BGSG Deluxe Burger : Un chef-d'œuvre entre deux pains, avec un steak juteux, du fromage fondant, des légumes frais et notre sauce secrète. Un classique revisité qui saura conquérir votre palais.
-
-Les Frites Gourmandes : Croustillantes à l'extérieur, moelleuses à l'intérieur, nos frites sont le compagnon idéal de chaque repas. À déguster seules ou en accompagnement, elles sont simplement irrésistibles.
-
-Le Hot-Dog Festif : Un hot-dog repensé avec des garnitures audacieuses. Saucisse savoureuse, pain moelleux et une variété de toppings créatifs pour une explosion de saveurs à chaque bouchée.
-
-Les Milkshakes Gourmets : Plongez dans l'onctuosité de nos milkshakes. Des combinaisons uniques de saveurs, du classique vanille au chocolat indulgent, préparés avec une générosité délicieuse.
-
-Les Salades Fraîcheur : Pour ceux qui optent pour une option plus légère, nos salades fraîches et colorées sont un festival de légumes croquants, de protéines savoureuses et de vinaigrettes originales.
-
-Chez BGSG, chaque spécialité est élaborée avec soin et passion pour vous offrir un festin de saveurs. Laissez-vous tenter par nos créations uniques qui vont révolutionner votre conception du Fast-Food. Bon appétit !
-
-
-
-
-</p>
+    <h2>Bienvenue chez BGSG</h2>
+    <p>Bienvenue chez BGSG, le Fast-Food qui va réveiller vos papilles ! Chez nous, on mise sur des burgers qui déchirent, des frites croustillantes, des hot-dogs qui font saliver et des milkshakes à tomber. Fraîcheur et saveurs sont nos mots d'ordre.</p>
+    <p>BGSG, c'est la promesse de repas rapides, délicieux et sans chichi. Que vous soyez fan des classiques ou prêt à découvrir des combos inédits, on a de quoi satisfaire toutes les envies. Installez-vous, commandez, et laissez-vous emporter par le plaisir simple et authentique de BGSG. Bon appétit !</p>
   </div>
     <div className="right">
-        <br />
-        <br />
-        <br />
         <Carousel id="test">
           <Carousel.Item>
             <img
@@ -61,9 +35,6 @@ Chez BGSG, chaque spécialité est élaborée avec soin et passion pour vous off
               width="50%"
               alt="First slide"
             />
-            <Carousel.Caption>
-              <p>Here you can see the first slide</p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -73,9 +44,6 @@ Chez BGSG, chaque spécialité est élaborée avec soin et passion pour vous off
               width="50%"
               alt="Second slide"
             />
-            <Carousel.Caption>
-              <p>Here you can see the second slide</p>
-            </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
@@ -86,9 +54,6 @@ Chez BGSG, chaque spécialité est élaborée avec soin et passion pour vous off
               width="50%"
               alt="Third slide"
             />
-            <Carousel.Caption>
-              <p>Here you can see the third slide</p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -98,16 +63,10 @@ Chez BGSG, chaque spécialité est élaborée avec soin et passion pour vous off
               width="50%"
               alt="Fourth slide"
             />
-            <Carousel.Caption>
-              <p>Here you can see the third slide</p>
-            </Carousel.Caption>
           </Carousel.Item>
-        </Carousel><br/><br/><br></br>
-        
-       
-      
+        </Carousel>
+    </div>      
     </div>
-      
     <div className="end">
     <h2 id="spe">Nos Spécialités</h2>
     {products.map((product) => (
@@ -120,9 +79,8 @@ Chez BGSG, chaque spécialité est élaborée avec soin et passion pour vous off
        
       />
     ))}
-    </div>
 </div>
-     
+</div>     
   );
 };
 export default Home;

@@ -12,7 +12,7 @@ export const Header = () =>{
         <BrowserRouter>
         <header>
         
-        <Link to="/Home">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/Menu">Menu</Link>
         <Link to="/Contact">Contact</Link>
         <Link to="/Panier"><img src={img} id='icon' alt="err"/></Link>
@@ -21,7 +21,7 @@ export const Header = () =>{
 
       
         <Routes>
-        <Route path='/Home' Component={Home}></Route>
+        <Route path='/' Component={Home}></Route>
         <Route path='/Menu' Component={Menu}></Route>
         <Route path='/Contact' Component={Contact}></Route>
         <Route path='/Panier' Component={Panier}></Route>

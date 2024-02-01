@@ -1,5 +1,3 @@
-// BackgroundImage.js
-
 import React from 'react';
 import './index.css';
 

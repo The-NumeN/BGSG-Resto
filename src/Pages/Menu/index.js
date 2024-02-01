@@ -8,7 +8,7 @@ import Image3 from '../../Assets/cu4.png';
 import Image4 from '../../Assets/fi1.png';
 import Image5 from '../../Assets/fi2.png';
 import Image6 from '../../Assets/fi3.png'
-import BackgroundImage from "../../Components/Footer/BackImage";
+import BackgroundImage from "../../Components/BackImage";
 import bg from "../../Assets/bg.jpg"
 
 export default function Menu() {

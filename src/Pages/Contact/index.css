@@ -15,7 +15,7 @@
 .form-container {
   flex: 1;
   padding: 20px;
-  margin: 10px; /* Marge pour l'espace entre la carte et le formulaire */
-  border: 1px solid #ddd; /* Bordure pour la délimitation */
-  border-radius: 8px; /* Bordures arrondies */
+  margin: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 8px;
 }

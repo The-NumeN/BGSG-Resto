@@ -1,7 +1,7 @@
 import React from "react";
 import Shop from "../../Assets/shop.png";
 import './index.css';
-import BackgroundImage from "../../Components/Footer/BackImage";
+import BackgroundImage from "../../Components/BackImage";
 import bg from "../../Assets/bg.jpg"
 
 
