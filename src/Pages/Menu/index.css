@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #f4f4f4;
+  background-color: rgba(176, 95, 176, 0.377);
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
