@@ -1,6 +1,9 @@
 import React from "react";
 import Shop from "../../Assets/shop.png";
-import './index.css'
+import './index.css';
+import BackgroundImage from "../../Components/Footer/BackImage";
+import bg from "../../Assets/bg.jpg"
+
 
 export default function Panier() {
   const viderPanier = () => {
@@ -18,9 +21,10 @@ export default function Panier() {
   }
 
   return (
+    <div>
+      <BackgroundImage imageUrl={bg}/>
     <div className="panier-container">
       <div className="image-container">
-        {/* Remplacez 'url_de_votre_image' par l'URL réelle de votre image */}
         <img src={Shop} alt="Image" className="image" />
       </div>
       <div className="panier-content">
@@ -33,6 +37,7 @@ export default function Panier() {
         <h4>Total à payer : {getTotal()} € </h4>
         <button onClick={() => viderPanier()}>Vider le panier</button>
       </div>
+    </div>
     </div>
   );
 }

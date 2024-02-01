@@ -1,0 +1,21 @@
+.contact-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #f4f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px; 
+  margin: 0 auto 0;
+  width: 90%;
+
+}
+
+.map-container,
+.form-container {
+  flex: 1;
+  padding: 20px;
+  margin: 10px; /* Marge pour l'espace entre la carte et le formulaire */
+  border: 1px solid #ddd; /* Bordure pour la délimitation */
+  border-radius: 8px; /* Bordures arrondies */
+}
