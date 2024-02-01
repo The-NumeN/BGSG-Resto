@@ -24,6 +24,7 @@ const Card = ({ img, title, description, price }) => {
         {isAddedToCart && (
             <div className="popup">
                 <p>Ajouté au panier!</p>
+                
             </div>
         )}
     </div>
