@@ -1,16 +1,16 @@
 import { Ajout } from "./Ajout";
 import { Annuler } from "./Annuler";
 
-const Button = ({children,action}) => {
+const Button = ({children, onClick}) => {
 
     return(
-        <div onclick={action}>
+        <div onClick={onClick}>
             {children}
         </div>
     )
 };
 
 Button.Ajout = Ajout;
-Button.Autre = Annuler;
+Button.Annuler = Annuler;
 
 export default Button;

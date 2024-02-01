@@ -1,7 +1,8 @@
-export const Ajout = ({label,action}) => {
+import './index.css';
+export const Ajout = ({label, onClick}) => {
     return (
-        <div onClick={action}>
+        <button  onClick={onClick}>
             <p>{label}</p>
-        </div>
+        </button>
     )
 }

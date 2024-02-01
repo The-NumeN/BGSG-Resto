@@ -1,7 +1,7 @@
-export const Annuler = ({label,action}) => {
+export const Annuler = ({label, onClick}) => {
     return (
-        <div onclick={action}>
-            
+        <div onClick={onClick}>
+            <p>{label}</p>
         </div>
     )
 }

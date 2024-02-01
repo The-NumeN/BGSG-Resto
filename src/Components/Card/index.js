@@ -1,3 +1,4 @@
+import Button from '../Button';
 import './index.css';
 import React, { useState } from 'react';
 
@@ -17,9 +18,9 @@ const Card = ({ img, title, description, price }) => {
             <img src={img} alt={title} className="product-image" />
         </div>
         <h2>{title}</h2>
-        <p>{description}</p>
-        <p>Prix: {price} €</p>
-        <button onClick={addToCartHandler}>Ajouter au panier</button>
+        <p class="des">{description}</p>
+        <p class="des">Prix: {price} €</p>
+        <Button.Ajout onClick={addToCartHandler}  label="Ajouter au panier"></Button.Ajout>
 
         {isAddedToCart && (
             <div className="popup">
