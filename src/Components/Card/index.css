@@ -16,24 +16,12 @@
     margin-bottom: 4px;
   }
   
-  .product-card p {
+  .des {
     color: #666;
     margin-bottom: 12px;
   }
   
-  .product-card button {
-    background-color: #1e1f1e;
-    color: #fff;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .product-card button:hover {
-    background-color: #333433;
-  }
+ 
   
   .popup {
     position: fixed;
