@@ -1,7 +1,8 @@
+import './index.css'
 export const Annuler = ({label, onClick}) => {
     return (
-        <div onClick={onClick}>
+        <button onClick={onClick}>
             <p>{label}</p>
-        </div>
+        </button>
     )
 }
