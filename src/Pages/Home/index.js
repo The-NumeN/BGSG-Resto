@@ -75,7 +75,7 @@ Alors, installez-vous confortablement, commandez votre festin de poulet, et lais
     <div className="end">
     <h2 id="spe">Nos Spécialités</h2>
     {products.map((product) => (
-      <Card.Simcard
+      <Card.Simple
         
         img={product.img}
         title={product.title}

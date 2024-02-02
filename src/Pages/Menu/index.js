@@ -47,7 +47,7 @@ export default function Menu() {
     </div>
     <div className="Menu">
       {products.map((product, index) => (
-        <Card.Cuscard
+        <Card.Custom
           key={index}
           img={product.img}
           title={product.title}

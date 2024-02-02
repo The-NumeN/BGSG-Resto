@@ -5,7 +5,7 @@ import './index.css'
 import BackgroundImage from "../../Components/BackImage";
 import bg from "../../Assets/bg.jpg"
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <div>
     <div>
@@ -22,3 +22,4 @@ export const Contact = () => {
     </div>
   );
 };
+export default Contact;

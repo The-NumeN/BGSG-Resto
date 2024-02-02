@@ -2,7 +2,7 @@ import './index.css';
 import Button from '../../Button';
 import React, { useState } from 'react';
 
-export const Cuscard = ({ img, title, description, price, addToCart }) => {
+export const Custom = ({ img, title, description, price, addToCart }) => {
   const [isAddedToCart, setIsAddedToCart] = useState(false);
 
   const addToCartHandler = () => {

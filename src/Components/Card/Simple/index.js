@@ -1,6 +1,6 @@
 import './index.css';
 
-export const Simcard = ({ img, title, description, price }) => {
+export const Simple = ({ img, title, description, price }) => {
 
 
   return (

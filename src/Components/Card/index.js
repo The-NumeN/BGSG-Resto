@@ -1,6 +1,6 @@
 import './index.css';
-import { Cuscard } from './Cuscard';
-import { Simcard } from './Simcard';
+import { Custom } from './Custom';
+import { Simple } from './Simple';
 
 const Card = ({ children}) => {
   
@@ -11,7 +11,7 @@ const Card = ({ children}) => {
   )
 };
 
-Card.Cuscard = Cuscard;
-Card.Simcard = Simcard;
+Card.Custom = Custom;
+Card.Simple = Simple;
 
 export default Card;
