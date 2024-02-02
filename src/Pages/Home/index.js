@@ -8,15 +8,16 @@ import image3 from "../../Assets/cu1.png";
 import image4 from "../../Assets/c4.png";
 import Card from "../../Components/Card";
 import Image4 from '../../Assets/fi1.png';
-import Image5 from '../../Assets/fi2.png';
-import Image6 from '../../Assets/fi3.png'
+import blackImage from '../../Assets/cu3.png';
+import Image30 from '../../Assets/cu4.png';
+
  const Home = () => {
     const products = [
 
-      
+      { img: blackImage, title: 'Crevettes', description: "Crevettes fraichement préparées", price: 30 },
+      { img: Image30, title: 'Poulet', description: "Poulet avec sa sauce spéciale", price: 50 },
       { img: Image4, title: 'Crustacés', description: "Ensemble de moules,coquillages...", price: 60 },
-      { img: Image5, title: 'Poisson', description: "Dorade", price: 70 },
-      { img: Image6, title: 'Poissonnet', description: "Thon", price: 80 },
+    
     ];
   return (
     <div>

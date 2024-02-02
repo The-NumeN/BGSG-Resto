@@ -25,7 +25,7 @@ export default function Panier() {
       <BackgroundImage imageUrl={bg}/>
     <div className="panier-container">
       <div className="image-container">
-        <img src={Shop} alt="Image" className="image" />
+        <img src={Shop} alt="Erreur" className="image" />
       </div>
       <div className="panier-content">
         <h2>Mon panier</h2>
