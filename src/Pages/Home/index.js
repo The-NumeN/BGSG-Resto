@@ -24,8 +24,11 @@ import Image30 from '../../Assets/cu4.png';
 <div className="all">
   <div className="left">
     <h2>Bienvenue chez BGSG</h2>
-    <p>Bienvenue chez BGSG, le Fast-Food qui va réveiller vos papilles ! Chez nous, on mise sur des burgers qui déchirent, des frites croustillantes, des hot-dogs qui font saliver et des milkshakes à tomber. Fraîcheur et saveurs sont nos mots d'ordre.</p>
-    <p>BGSG, c'est la promesse de repas rapides, délicieux et sans chichi. Que vous soyez fan des classiques ou prêt à découvrir des combos inédits, on a de quoi satisfaire toutes les envies. Installez-vous, commandez, et laissez-vous emporter par le plaisir simple et authentique de BGSG. Bon appétit !</p>
+    <p>Bienvenue chez BGSG Chicken, le Fast-Food qui va réveiller vos papilles avec une explosion de saveurs de poulet ! Chez nous, c'est tout un festin de tendresse et de croustillant qui vous attend.
+       BGSG Chicken, c'est l'endroit où les sandwichs au poulet rivalisent avec des tenders croustillants, des frites dorées et des saveurs qui vous feront saliver. Fraîcheur et délices sont notre credo.
+<br></br>       
+On vous promet des repas rapides, délicieux et sans chichi. Que vous soyez accro aux classiques ou prêt à tenter des créations inédites, BGSG Chicken a de quoi combler toutes vos envies.
+Alors, installez-vous confortablement, commandez votre festin de poulet, et laissez-vous emporter par le plaisir simple et authentique de BGSG Chicken. Bon appétit !</p>
   </div>
     <div className="right">
         <Carousel id="test">
