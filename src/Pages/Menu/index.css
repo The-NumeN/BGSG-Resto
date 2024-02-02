@@ -10,3 +10,8 @@
   width: 90%;
   margin: 0 auto 0;
 }
+#titre{
+  font-family: 'Playfair Display Bold';
+  font-size: 70px;
+  font-weight: bold; 
+}

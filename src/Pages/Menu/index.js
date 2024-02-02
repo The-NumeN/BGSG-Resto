@@ -42,6 +42,9 @@ export default function Menu() {
     <div>
     <BackgroundImage imageUrl={bg}/>
     </div>
+    <div>
+    <h2 id="titre">Notre Menu</h2>
+    </div>
     <div className="Menu">
       {products.map((product, index) => (
         <Card.Cuscard
