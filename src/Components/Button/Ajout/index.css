@@ -2,15 +2,16 @@ button {
   background-color: rgba(176, 95, 176, 0.968);
  
     color: white;
-    padding: 8px 16px;
+  
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-
+    
 }
 button p{
     color:white;
+    margin: 0;
 }  
 button:hover {
     background-color: #333433;

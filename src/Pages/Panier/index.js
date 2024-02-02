@@ -3,7 +3,7 @@ import Shop from "../../Assets/shop.png";
 import './index.css';
 import BackgroundImage from "../../Components/BackImage";
 import bg from "../../Assets/bg.jpg"
-
+import Button from "../../Components/Button";
 
 export default function Panier() {
   const viderPanier = () => {
@@ -35,7 +35,7 @@ export default function Panier() {
           </p>
         ))}
         <h4>Total à payer : {getTotal()} € </h4>
-        <button onClick={() => viderPanier()}>Vider le panier</button>
+        <Button.Annuler onClick={() => viderPanier()} label="Vider le panier"></Button.Annuler>
       </div>
     </div>
     </div>
